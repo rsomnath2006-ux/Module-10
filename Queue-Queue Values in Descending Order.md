@@ -22,7 +22,17 @@ To write a Python program to:
 7. Print the updated list.
 
 ## 🧪 Program: 
-
+```
+from collections import deque
+q = deque()
+for i in range(5):
+    value = input()
+    q.append(value)
+a= sorted(q,reverse=True)
+print(" ".join(a))
+```
 ### Output:
+<img width="893" height="394" alt="image" src="https://github.com/user-attachments/assets/962432ef-9c85-4bc4-9089-28f566df4624" />
 
 ## Result:
+Thus,the program is executed successfully
